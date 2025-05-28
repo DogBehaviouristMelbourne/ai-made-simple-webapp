@@ -453,3 +453,20 @@ footer {
         right: -100%;
     }
 }
+
+/* Ensure full visibility and accessibility for lesson-section, lesson-image, and paragraphs */
+.lesson-section, .lesson-section p, .lesson-image, .lesson-image img {
+    opacity: 1 !important;
+    filter: none !important;
+    color: #fff !important;
+    font-weight: normal !important;
+    pointer-events: auto !important;
+}
+
+.lesson-section p {
+    color: #fff !important;
+    opacity: 1 !important;
+    font-weight: normal !important;
+    filter: none !important;
+    pointer-events: auto !important;
+}
