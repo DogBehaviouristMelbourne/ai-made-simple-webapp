@@ -313,7 +313,10 @@ main {
 }
 
 .lesson-image {
-    margin: 1.5rem 0;
+    position: relative;
+    z-index: 0;
+    margin: 2rem 0 2rem 0;
+    padding: 0.5rem 0;
     text-align: center;
 }
 
@@ -322,6 +325,10 @@ main {
     height: auto;
     border-radius: 5px;
     box-shadow: var(--shadow);
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+    display: block;
 }
 
 .lesson-complete {
